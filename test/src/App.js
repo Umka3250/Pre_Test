@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import pic_for_slider from '../src/assets/img/main_photo.jpg';
 
 import {Card, Carousel, Col, Container, Row,} from "react-bootstrap";
 
@@ -8,67 +9,70 @@ export default function App() {
       <Container fluid>
           <Row>
               <Col xs={12} className="p-0">
-                  <Carousel className="bg-info h-25" controls={false}>
+                  <button className="border-0 rounded-circle back-btn">
+                      <span className="mx-1 my-2 text-white align-middle material-icons">arrow_back</span>
+                  </button>
+                  <Carousel className="bg-info" controls={false}>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="First slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="First slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="main_photo.jpg"
+                              src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
