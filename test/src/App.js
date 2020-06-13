@@ -13,6 +13,7 @@ export default function App() {
                           <img
                               className="d-block"
                               src="main_photo.jpg"
+                              alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
