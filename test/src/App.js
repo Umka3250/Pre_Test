@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+import {Carousel, Col, Container, Row,} from "react-bootstrap";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Container fluid>
+          <Row>
+              <Col xs={12}>
+                  <Carousel controls={false} ride={false}>
+                      <Carousel.Item>
+                          <img
+                              className="d-block w-100"
+                              src="Assets/img/photo_place.png"
+                              alt="First slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block w-100"
+                              src="Assets/img/photo_place.png"
+                              alt="Third slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block w-100"
+                              src="Assets/img/photo_place.png"
+                              alt="Third slide"
+                          />
+                      </Carousel.Item>
+                  </Carousel>
+              </Col>
+          </Row>
+      </Container>
   );
 }
-
-export default App;
