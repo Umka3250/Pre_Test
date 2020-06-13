@@ -8,25 +8,66 @@ export default function App() {
       <Container fluid>
           <Row>
               <Col xs={12} className="p-0">
-                  <Carousel className="bg-info h-100" controls={false}>
+                  <Carousel className="bg-info h-25" controls={false}>
                       <Carousel.Item>
                           <img
-                              className="d-block w-100"
-                              src="photo_place.png"
-                              alt="First slide"
+                              className="d-block"
+                              src="main_photo.jpg"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block w-100"
-                              src="photo_place.png"
+                              className="d-block"
+                              src="assets/img/main_photo.png"
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block w-100"
-                              src="photo_place.png"
+                              className="d-block"
+                              src="assets/img/main_photo.png"
+                              alt="Third slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block"
+                              src="assets/img/main_photo.png"
+                              alt="First slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block"
+                              src="assets/img/main_photo.png"
+                              alt="Third slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block"
+                              src="assets/img/main_photo.png"
+                              alt="Third slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block"
+                              src="assets/img/main_photo.png"
+                              alt="First slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block"
+                              src="assets/img/main_photo.png"
+                              alt="Third slide"
+                          />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                          <img
+                              className="d-block"
+                              src="assets/img/main_photo.png"
                               alt="Third slide"
                           />
                       </Carousel.Item>
@@ -89,6 +130,62 @@ export default function App() {
                                   <span className="text-color-custom">Bisexual</span>
                               </button>
                           </div>
+                          <Card.Text className="text-muted f_s-16 mb-0">
+                              I'm here...
+                          </Card.Text>
+                          <Card.Text className="font-weight-bold f_s-20">
+                              To see what happens
+                          </Card.Text>
+                          <Card.Text className="text-muted f_s-16 mb-0">
+                              Education
+                          </Card.Text>
+                          <Card.Text className="font-weight-bold f_s-20">
+                              High school
+                          </Card.Text>
+                          <Card.Text className="text-muted f_s-16 mb-0">
+                              Work
+                          </Card.Text>
+                          <Card.Text className="font-weight-bold f_s-20">
+                              Journalist, best mom ever
+                          </Card.Text>
+                          <Card.Text className="text-muted f_s-16 mb-0">
+                              Current location
+                          </Card.Text>
+                          <Card.Text className="font-weight-bold f_s-20">
+                              5 ml away
+                          </Card.Text>
+                          <Card.Text className="text-muted f_s-16 mb-0">
+                              Verification
+                          </Card.Text>
+                          <Card.Text className="font-weight-bold f_s-20">
+                              <Row>
+                                  <Col xs={2} className="pr-0">
+                                      <span className="material-icons align-middle text-primary pr-2">check_circle</span>
+                                  </Col>
+                                  <Col xs={10} className="pl-0">
+                                      <span className="align-middle">Nastya is photo-verified</span>
+                                  </Col>
+                              </Row>
+                          </Card.Text>
+                          <Card.Text className="text-muted f_s-16 mb-0">
+                              Logged in
+                          </Card.Text>
+                          <Card.Text className="font-weight-bold f_s-20">
+                              <Row>
+                                  <Col xs={2} className="pr-0"><span className="icon-fb align-middle text-primary"></span></Col>
+                                  <Col xs={10} className="pl-0"><span>Nastya logged in with  facebook</span></Col>
+                              </Row>
+                          </Card.Text>
+                          <Row>
+                              <Col xs="12">
+                                  <button className="btn-border-report p-2 text-color-custom">Report abuse</button>
+                              </Col>
+                          </Row>
+                          <Row>
+                              <Col xs="12" className="text-center">
+                                  <button className="m-3 p-3 rounded-circle btn-like"><span className="align-middle material-icons color-for-like-btn">favorite</span></button>
+                              </Col>
+                          </Row>
                       </Card.Body>
                   </Card>
               </Col>
