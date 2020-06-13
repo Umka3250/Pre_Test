@@ -184,7 +184,7 @@ export default function App() {
                           </Row>
                           <Row>
                               <Col xs="12" className="text-center">
-                                  <button className="m-3 p-3 rounded-circle btn-like"><span className="align-middle material-icons color-for-like-btn">favorite</span></button>
+                                  <button className="m-3 p-3 border-0 rounded-circle btn-like"><span className="align-middle material-icons color-for-like-btn">favorite</span></button>
                               </Col>
                           </Row>
                       </Card.Body>
