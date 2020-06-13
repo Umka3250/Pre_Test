@@ -19,56 +19,56 @@ export default function App() {
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="First slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="First slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
                               className="d-block"
-                              src="assets/img/main_photo.png"
+                              src="main_photo.jpg"
                               alt="Third slide"
                           />
                       </Carousel.Item>
