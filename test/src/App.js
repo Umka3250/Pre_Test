@@ -15,63 +15,63 @@ export default function App() {
                   <Carousel className="bg-info" controls={false}>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="First slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="First slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
                       </Carousel.Item>
                       <Carousel.Item>
                           <img
-                              className="d-block"
+                              className="d-block w-100"
                               src={pic_for_slider}
                               alt="Third slide"
                           />
